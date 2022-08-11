@@ -12,7 +12,17 @@ programa
 		escreva("Digite a sua idade: ") 
 		leia(idade) 
 		limpa() 
+		
+		inteiro cpf, salario
+		escreva("Digite seu cpf:\n")
+		leia(cpf)
+		escreva("Digite seu salário:\n")
+		leia(salario)
+		limpa()
+		
+		
 		escreva("O seu nome é ", nome, " , a sua idade é ", idade, " e o seu email é ", email) 
+		escreva("\n e Seu cpf é ", cpf, " e seu salário é ", salario)
 	}
 }
 /* $$$ Portugol Studio $$$ 
